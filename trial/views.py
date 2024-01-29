@@ -6,4 +6,8 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-   return HttpResponse('it worked')
+   return HttpResponse('it worked ')
+   
+   
+def response(request):
+   return HttpResponse('it is working ')
